@@ -1,0 +1,7 @@
+[0.080s] Invoking command in '/home/robotica-dev/robotica_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/ros2_ws/install/ros_control:/home/robotica-dev/dev_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/serial -- -j4 -l4
+[0.499s] [ 21%] Built target gtest
+[0.500s] [ 42%] Built target serial
+[0.521s] [ 57%] Built target gtest_main
+[0.553s] [ 71%] Built target serial-test
+[0.553s] [ 85%] Built target serial_example
+[0.556s] [100%] Built target serial-test-timer

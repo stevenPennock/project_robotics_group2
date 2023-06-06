@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating ros_control.egg-info
+writing ros_control.egg-info/PKG-INFO
+writing dependency_links to ros_control.egg-info/dependency_links.txt
+writing entry points to ros_control.egg-info/entry_points.txt
+writing requirements to ros_control.egg-info/requires.txt
+writing top-level names to ros_control.egg-info/top_level.txt
+writing manifest file 'ros_control.egg-info/SOURCES.txt'
+reading manifest file 'ros_control.egg-info/SOURCES.txt'
+writing manifest file 'ros_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotica-dev/robotica_ws/install/ros_control/lib/python3.10/site-packages/ros-control.egg-link (link to .)
+Installing RandomData script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+Installing RealSense script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+Installing Telemetric script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+Installing serial_input script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+Installing servo_control script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+
+Installed /home/robotica-dev/robotica_ws/build/ros_control
+running install_data
+creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index
+creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index
+creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index/packages
+copying resource/ros_control -> /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica-dev/robotica_ws/install/ros_control/share/ros_control

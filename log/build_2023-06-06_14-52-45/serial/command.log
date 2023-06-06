@@ -1,0 +1,1 @@
+Invoking command in '/home/robotica-dev/robotica_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/ros2_ws/install/ros_control:/home/robotica-dev/dev_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/serial -- -j4 -l4

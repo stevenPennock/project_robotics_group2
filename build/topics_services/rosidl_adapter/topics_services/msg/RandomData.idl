@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from topics_services/msg/RandomData.msg
+// generated code does not contain a copyright notice
+
+
+module topics_services {
+  module msg {
+    struct RandomData {
+      string gs1;
+
+      uint32 highband;
+
+      uint32 midband;
+
+      uint32 lowband;
+
+      uint32 weight;
+
+      uint32 batteryvoltage;
+    };
+  };
+};

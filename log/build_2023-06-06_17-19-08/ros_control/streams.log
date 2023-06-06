@@ -1,0 +1,28 @@
+[1.828s] Invoking command in '/home/robotica-dev/robotica_ws/build/ros_control': AMENT_PREFIX_PATH=/home/robotica-dev/robotica_ws/install/topics_services:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica-dev/robotica_ws/install/topics_services:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robotica-dev/robotica_ws/install/topics_services/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica-dev/robotica_ws/build/ros_control/prefix_override:/home/robotica-dev/robotica_ws/install/ros_control/lib/python3.10/site-packages:/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotica-dev/robotica_ws/build/ros_control/build --no-deps install_data
+[2.115s] running develop
+[2.303s] running egg_info
+[2.303s] creating ros_control.egg-info
+[2.303s] writing ros_control.egg-info/PKG-INFO
+[2.303s] writing dependency_links to ros_control.egg-info/dependency_links.txt
+[2.303s] writing entry points to ros_control.egg-info/entry_points.txt
+[2.303s] writing requirements to ros_control.egg-info/requires.txt
+[2.303s] writing top-level names to ros_control.egg-info/top_level.txt
+[2.304s] writing manifest file 'ros_control.egg-info/SOURCES.txt'
+[2.305s] reading manifest file 'ros_control.egg-info/SOURCES.txt'
+[2.306s] writing manifest file 'ros_control.egg-info/SOURCES.txt'
+[2.307s] running build_ext
+[2.307s] Creating /home/robotica-dev/robotica_ws/install/ros_control/lib/python3.10/site-packages/ros-control.egg-link (link to .)
+[2.308s] Installing RandomData script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+[2.308s] Installing RealSense script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+[2.308s] Installing Telemetric script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+[2.308s] Installing serial_input script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+[2.309s] Installing servo_control script to /home/robotica-dev/robotica_ws/install/ros_control/lib/ros_control
+[2.309s] 
+[2.309s] Installed /home/robotica-dev/robotica_ws/build/ros_control
+[2.309s] running install_data
+[2.309s] creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index
+[2.309s] creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index
+[2.309s] creating /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index/packages
+[2.309s] copying resource/ros_control -> /home/robotica-dev/robotica_ws/install/ros_control/share/ament_index/resource_index/packages
+[2.309s] copying package.xml -> /home/robotica-dev/robotica_ws/install/ros_control/share/ros_control
+[2.347s] Invoked command in '/home/robotica-dev/robotica_ws/build/ros_control' returned '0': AMENT_PREFIX_PATH=/home/robotica-dev/robotica_ws/install/topics_services:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica-dev/robotica_ws/install/topics_services:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robotica-dev/robotica_ws/install/topics_services/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica-dev/robotica_ws/build/ros_control/prefix_override:/home/robotica-dev/robotica_ws/install/ros_control/lib/python3.10/site-packages:/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotica-dev/robotica_ws/build/ros_control/build --no-deps install_data

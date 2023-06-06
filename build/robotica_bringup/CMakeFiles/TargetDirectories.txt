@@ -1,0 +1,9 @@
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/uninstall.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/robotica_bringup_uninstall.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/test.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/edit_cache.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/rebuild_cache.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/list_install_components.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/install.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/install/local.dir
+/home/robotica-dev/robotica_ws/build/robotica_bringup/CMakeFiles/install/strip.dir

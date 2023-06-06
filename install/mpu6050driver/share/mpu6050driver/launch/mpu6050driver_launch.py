@@ -1,0 +1,1 @@
+/home/robotica-dev/robotica_ws/src/ros2_mpu6050_driver/launch/mpu6050driver_launch.py

@@ -1,0 +1,1 @@
+/home/robotica-dev/robotica_ws/build/topics_services/rosidl_generator_py/topics_services/msg/_telemetric_s.c

@@ -1,0 +1,10 @@
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/uninstall.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/mpu6050driver_uninstall.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/mpu6050driver.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/test.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/edit_cache.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/rebuild_cache.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/list_install_components.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/install.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/install/local.dir
+/home/robotica-dev/robotica_ws/build/mpu6050driver/CMakeFiles/install/strip.dir

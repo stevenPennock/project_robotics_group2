@@ -1,0 +1,1 @@
+/home/robotica-dev/robotica_ws/src/dynamixel_hardware_examples/open_manipulator_x_description/launch/open_manipulator_x_gazebo.launch.py

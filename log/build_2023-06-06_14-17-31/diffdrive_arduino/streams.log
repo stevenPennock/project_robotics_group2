@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/robotica-dev/robotica_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/ros2_ws/install/ros_control:/home/robotica-dev/dev_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/diffdrive_arduino -- -j4 -l4
+[0.074s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.076s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[0.393s] In file included from [01m[K/home/robotica-dev/robotica_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[0.393s] [01m[K/home/robotica-dev/robotica_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[0.393s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[0.393s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.393s] compilation terminated.
+[0.395s] In file included from [01m[K/home/robotica-dev/robotica_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[0.395s] [01m[K/home/robotica-dev/robotica_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[0.395s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[0.395s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.395s] compilation terminated.
+[0.396s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[0.396s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[0.396s] gmake[1]: *** Waiting for unfinished jobs....
+[0.399s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[0.399s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[0.399s] gmake: *** [Makefile:146: all] Error 2
+[0.402s] Invoked command in '/home/robotica-dev/robotica_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/ros2_ws/install/ros_control:/home/robotica-dev/dev_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/diffdrive_arduino -- -j4 -l4

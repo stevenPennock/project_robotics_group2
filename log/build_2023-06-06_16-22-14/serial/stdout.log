@@ -1,0 +1,43 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robotica-dev/robotica_ws/build/serial
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 14%] Built target gtest_main
+[ 28%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target serial[0m
+[ 57%] Built target serial
+[35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[ 71%] Built target serial-test-timer
+[ 85%] Built target serial-test
+[35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[100%] Built target serial_example
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/lib/libserial.a
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/include/serial/serial.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/package.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/serial/share/serial/package.xml

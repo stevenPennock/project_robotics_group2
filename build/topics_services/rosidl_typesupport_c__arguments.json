@@ -1,0 +1,21 @@
+{
+  "package_name": "topics_services",
+  "output_dir": "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_typesupport_c/topics_services",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services:msg/ServoData.idl",
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services:msg/Telemetric.idl",
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services:msg/RandomData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services/msg/ServoData.idl",
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services/msg/Telemetric.idl",
+    "/home/robotica-dev/robotica_ws/build/topics_services/rosidl_adapter/topics_services/msg/RandomData.idl"
+  ]
+}

@@ -1,0 +1,8 @@
+source;share/robotica_control_servo/hook/cmake_prefix_path.ps1
+source;share/robotica_control_servo/hook/cmake_prefix_path.dsv
+source;share/robotica_control_servo/hook/cmake_prefix_path.sh
+source;share/robotica_control_servo/local_setup.bash
+source;share/robotica_control_servo/local_setup.dsv
+source;share/robotica_control_servo/local_setup.ps1
+source;share/robotica_control_servo/local_setup.sh
+source;share/robotica_control_servo/local_setup.zsh

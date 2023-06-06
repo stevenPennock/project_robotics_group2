@@ -1,0 +1,1 @@
+/home/robotica-dev/robotica_ws/build/topics_services/rosidl_typesupport_introspection_cpp/topics_services/msg/detail/telemetric__rosidl_typesupport_introspection_cpp.hpp

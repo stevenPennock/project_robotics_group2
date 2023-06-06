@@ -1,0 +1,8 @@
+{
+  "package_name": "topics_services",
+  "non_idl_tuples": [
+    "/home/robotica-dev/robotica_ws/src/topics_services:msg/ServoData.msg",
+    "/home/robotica-dev/robotica_ws/src/topics_services:msg/Telemetric.msg",
+    "/home/robotica-dev/robotica_ws/src/topics_services:msg/RandomData.msg"
+  ]
+}

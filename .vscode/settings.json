@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robotica-dev/ros2_ws/build/ros_control",
+        "/home/robotica-dev/ros2_ws/install/ros_control/lib/python3.10/site-packages",
+        "/home/robotica-dev/ros2_ws/install/topics_services/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/ros2_ws/install/topics/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/dev_ws/install/ros_control/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robotica-dev/ros2_ws/build/ros_control",
+        "/home/robotica-dev/ros2_ws/install/ros_control/lib/python3.10/site-packages",
+        "/home/robotica-dev/ros2_ws/install/topics_services/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/ros2_ws/install/topics/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotica-dev/dev_ws/install/ros_control/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

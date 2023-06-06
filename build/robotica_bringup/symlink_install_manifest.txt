@@ -1,0 +1,16 @@
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/launch/ros_control.launch.py
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/ament_index/resource_index/package_run_dependencies/robotica_bringup
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/ament_index/resource_index/parent_prefix_path/robotica_bringup
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/environment/ament_prefix_path.sh
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/environment/ament_prefix_path.dsv
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/environment/path.sh
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/environment/path.dsv
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/local_setup.bash
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/local_setup.sh
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/local_setup.zsh
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/local_setup.dsv
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/package.dsv
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/ament_index/resource_index/packages/robotica_bringup
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/cmake/robotica_bringupConfig.cmake
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/cmake/robotica_bringupConfig-version.cmake
+/home/robotica-dev/robotica_ws/install/robotica_bringup/share/robotica_bringup/package.xml

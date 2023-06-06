@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robotica-dev/ros2_ws/install/udp_driver/include/**",
+        "/home/robotica-dev/ros2_ws/install/topics_services/include/**",
+        "/home/robotica-dev/ros2_ws/install/topics/include/**",
+        "/home/robotica-dev/ros2_ws/install/serial_driver/include/**",
+        "/home/robotica-dev/ros2_ws/install/realsense2_camera/include/**",
+        "/home/robotica-dev/ros2_ws/install/realsense2_camera_msgs/include/**",
+        "/home/robotica-dev/ros2_ws/install/io_context/include/**",
+        "/home/robotica-dev/ros2_ws/install/foxglove_bridge/include/**",
+        "/home/robotica-dev/ros2_ws/install/dynamixel_hardware/include/**",
+        "/home/robotica-dev/dev_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/robotica-dev/dev_ws/install/dynamixel_hardware/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/robotica-dev/robotica_ws/src/diffdrive_arduino/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

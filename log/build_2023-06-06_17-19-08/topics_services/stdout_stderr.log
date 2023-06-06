@@ -1,0 +1,256 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robotica-dev/robotica_ws/build/topics_services
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_symlink_topics_services
+running egg_info
+creating topics_services.egg-info
+writing topics_services.egg-info/PKG-INFO
+writing dependency_links to topics_services.egg-info/dependency_links.txt
+writing top-level names to topics_services.egg-info/top_level.txt
+writing manifest file 'topics_services.egg-info/SOURCES.txt'
+reading manifest file 'topics_services.egg-info/SOURCES.txt'
+writing manifest file 'topics_services.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_topics_services_egg
+[  6%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_c.dir/rosidl_generator_c/topics_services/msg/detail/servo_data__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_c.dir/rosidl_generator_c/topics_services/msg/detail/telemetric__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_c.dir/rosidl_generator_c/topics_services/msg/detail/random_data__functions.c.o[0m
+[ 10%] Built target topics_services__cpp
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32m[1mLinking C shared library libtopics_services__rosidl_generator_c.so[0m
+[ 19%] Built target topics_services__rosidl_generator_c
+[ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topics_services/msg/servo_data__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topics_services/msg/detail/dds_fastrtps/servo_data__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topics_services/msg/detail/servo_data__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topics_services/msg/telemetric__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topics_services/msg/detail/servo_data__type_support_c.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topics_services/msg/random_data__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topics_services/msg/detail/telemetric__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topics_services/msg/detail/dds_fastrtps/telemetric__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libtopics_services__rosidl_typesupport_cpp.so[0m
+[ 40%] Built target topics_services__rosidl_typesupport_cpp
+[ 42%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topics_services/msg/detail/telemetric__type_support_c.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topics_services/msg/detail/dds_fastrtps/random_data__type_support.cpp.o[0m
+[ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topics_services/msg/detail/random_data__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topics_services/msg/detail/random_data__type_support_c.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libtopics_services__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 55%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topics_services/msg/detail/servo_data__type_support.c.o[0m
+[ 57%] [32m[1mLinking CXX shared library libtopics_services__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topics_services/msg/detail/telemetric__type_support.c.o[0m
+[ 59%] Built target topics_services__rosidl_typesupport_fastrtps_cpp
+[ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 63%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topics_services/msg/detail/random_data__type_support.c.o[0m
+[ 63%] Built target topics_services__rosidl_typesupport_introspection_cpp
+[ 65%] [32m[1mLinking C shared library libtopics_services__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target topics_services__rosidl_typesupport_introspection_c
+[ 68%] [32m[1mLinking CXX shared library libtopics_services__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target topics_services__rosidl_typesupport_fastrtps_c
+[ 70%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/topics_services/msg/servo_data__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/topics_services/msg/telemetric__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/topics_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/topics_services/msg/random_data__type_support.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libtopics_services__rosidl_typesupport_c.so[0m
+[ 76%] Built target topics_services__rosidl_typesupport_c
+[ 76%] Built target topics_services
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target topics_services__py
+[ 82%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_py.dir/rosidl_generator_py/topics_services/msg/_servo_data_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_py.dir/rosidl_generator_py/topics_services/msg/_telemetric_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/topics_services__rosidl_generator_py.dir/rosidl_generator_py/topics_services/msg/_random_data_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/topics_services/libtopics_services__rosidl_generator_py.so[0m
+[ 87%] Built target topics_services__rosidl_generator_py
+[ 89%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/topics_services/_topics_services_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/topics_services/_topics_services_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/topics_services__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/topics_services/_topics_services_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/topics_services/topics_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/topics_services/topics_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/topics_services/topics_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target topics_services__rosidl_typesupport_c__pyext
+[100%] Built target topics_services__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target topics_services__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/ament_index/resource_index/rosidl_interfaces/topics_services
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__functions.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__struct.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__type_support.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__functions.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__struct.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__type_support.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__functions.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__struct.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__type_support.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/random_data.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/servo_data.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/telemetric.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/library_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/library_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__builder.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__struct.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__traits.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__builder.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__struct.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__traits.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__builder.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__struct.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__traits.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/random_data.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/servo_data.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/telemetric.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/random_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/servo_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/include/topics_services/topics_services/msg/detail/telemetric__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/pythonpath.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/pythonpath.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/__init__.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/_topics_services_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/_topics_services_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/_topics_services_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/libtopics_services__rosidl_generator_py.so
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/__init__.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_random_data.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_random_data_s.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_servo_data.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_servo_data_s.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_telemetric.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_telemetric_s.c
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/topics_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/ServoData.idl
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/Telemetric.idl
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/RandomData.idl
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/ServoData.msg
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/Telemetric.msg
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/msg/RandomData.msg
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/ament_index/resource_index/package_run_dependencies/topics_services
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/ament_index/resource_index/parent_prefix_path/topics_services
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/ament_prefix_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/environment/path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/local_setup.bash
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/local_setup.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/local_setup.zsh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/local_setup.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/package.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/ament_index/resource_index/packages/topics_services
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_servicesConfig.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_servicesConfig-version.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/package.xml
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_generator_c.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_generator_c.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_c.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_c.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_typesupport_cpp.so" to ""
+Listing '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services'...
+Compiling '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/__init__.py'...
+Listing '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg'...
+Compiling '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/__init__.py'...
+Compiling '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_random_data.py'...
+Compiling '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_servo_data.py'...
+Compiling '/home/robotica-dev/robotica_ws/install/topics_services/local/lib/python3.10/dist-packages/topics_services/msg/_telemetric.py'...
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_generator_py.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/topics_services/lib/libtopics_services__rosidl_generator_py.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_generator_cExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_generator_cppExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_cExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/topics_services__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_generator_pyExport.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/topics_services/share/topics_services/cmake/export_topics_services__rosidl_generator_pyExport-noconfig.cmake

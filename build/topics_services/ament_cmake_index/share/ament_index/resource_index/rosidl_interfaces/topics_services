@@ -1,0 +1,6 @@
+msg/RandomData.idl
+msg/RandomData.msg
+msg/ServoData.idl
+msg/ServoData.msg
+msg/Telemetric.idl
+msg/Telemetric.msg

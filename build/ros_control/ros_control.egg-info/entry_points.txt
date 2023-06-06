@@ -1,0 +1,7 @@
+[console_scripts]
+RandomData = ros_control.RandomData:main
+RealSense = ros_control.RealSense:main
+Telemetric = ros_control.Telemetric:main
+serial_input = ros_control.serial_input:main
+servo_control = ros_control.servo_control:main
+
