@@ -4,3 +4,7 @@ topics_services.egg-info/PKG-INFO
 topics_services.egg-info/SOURCES.txt
 topics_services.egg-info/dependency_links.txt
 topics_services.egg-info/top_level.txt
+topics_services/msg/__init__.py
+topics_services/msg/_random_data.py
+topics_services/msg/_servo_data.py
+topics_services/msg/_telemetric.py

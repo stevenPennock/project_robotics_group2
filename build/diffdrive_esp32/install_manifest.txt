@@ -1,0 +1,3 @@
+/home/robotica-dev/robotica_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so
+/home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake
+/home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake

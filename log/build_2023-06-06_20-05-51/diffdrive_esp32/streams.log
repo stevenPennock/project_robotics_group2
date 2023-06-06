@@ -1,0 +1,64 @@
+[0.033s] Invoking command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake /home/robotica-dev/robotica_ws/src/diffdrive_esp32 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotica-dev/robotica_ws/install/diffdrive_esp32
+[0.046s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.249s] -- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.292s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.295s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.314s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.111s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.112s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.514s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.589s] -- Configuring done
+[1.627s] -- Generating done
+[1.628s] -- Build files have been written to: /home/robotica-dev/robotica_ws/build/diffdrive_esp32
+[1.637s] Invoked command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake /home/robotica-dev/robotica_ws/src/diffdrive_esp32 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotica-dev/robotica_ws/install/diffdrive_esp32
+[1.638s] Invoking command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/diffdrive_esp32 -- -j4 -l4
+[1.697s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o[0m
+[5.093s] [100%] [32m[1mLinking CXX shared library libdiffdrive_esp32.so[0m
+[5.277s] [100%] Built target diffdrive_esp32
+[5.289s] Invoked command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --build /home/robotica-dev/robotica_ws/build/diffdrive_esp32 -- -j4 -l4
+[5.325s] Invoking command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --install /home/robotica-dev/robotica_ws/build/diffdrive_esp32
+[5.333s] -- Install configuration: ""
+[5.333s] -- Execute custom install script
+[5.334s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32//diffdrive_esp32.xml
+[5.344s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/arduino_comms.hpp
+[5.353s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp
+[5.363s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h
+[5.372s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp
+[5.382s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/launch/view_robot.launch.py
+[5.392s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/ros2_control/diffbot.ros2_control.xacro
+[5.402s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot.materials.xacro
+[5.412s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot.urdf.xacro
+[5.421s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot_description.urdf.xacro
+[5.431s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/rviz/diffbot.rviz
+[5.441s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/rviz/diffbot_view.rviz
+[5.450s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/launch/diffbot.launch.py
+[5.460s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/config/diffbot_controllers.yaml
+[5.470s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh
+[5.480s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv
+[5.490s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32
+[5.499s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32
+[5.509s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh
+[5.519s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv
+[5.529s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh
+[5.538s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv
+[5.548s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash
+[5.557s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh
+[5.567s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh
+[5.576s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv
+[5.586s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv
+[5.596s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32
+[5.606s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32
+[5.618s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake
+[5.628s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.637s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake
+[5.647s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake
+[5.657s] -- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml
+[5.666s] -- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so
+[5.668s] -- Set runtime path of "/home/robotica-dev/robotica_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so" to ""
+[5.668s] -- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake
+[5.668s] -- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake
+[5.672s] Invoked command in '/home/robotica-dev/robotica_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica-dev/robotica_ws/install/ros_control:/opt/ros/humble /usr/bin/cmake --install /home/robotica-dev/robotica_ws/build/diffdrive_esp32

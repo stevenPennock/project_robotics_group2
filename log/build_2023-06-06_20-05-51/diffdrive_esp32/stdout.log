@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robotica-dev/robotica_ws/build/diffdrive_esp32
+[ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp32.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdiffdrive_esp32.so[0m
+[100%] Built target diffdrive_esp32
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32//diffdrive_esp32.xml
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/arduino_comms.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/launch/view_robot.launch.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/ros2_control/diffbot.ros2_control.xacro
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot.materials.xacro
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot.urdf.xacro
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/urdf/diffbot_description.urdf.xacro
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/rviz/diffbot.rviz
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/rviz/diffbot_view.rviz
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/launch/diffbot.launch.py
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/config/diffbot_controllers.yaml
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake
+-- Symlinking: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml
+-- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so
+-- Set runtime path of "/home/robotica-dev/robotica_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so" to ""
+-- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake
+-- Installing: /home/robotica-dev/robotica_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake

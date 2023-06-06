@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/urdf/robot.urdf.xacro
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/urdf/robot_core.xacro
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/urdf/robotica.materials.xacro
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/urdf/ros2_control.xacro
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/ament_index/resource_index/package_run_dependencies/robotica_control_servo
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/ament_index/resource_index/parent_prefix_path/robotica_control_servo
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/environment/path.sh
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/environment/path.dsv
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/local_setup.bash
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/local_setup.sh
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/local_setup.zsh
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/local_setup.dsv
+-- Symlinking: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/package.dsv
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/ament_index/resource_index/packages/robotica_control_servo
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/cmake/robotica_control_servoConfig.cmake
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/cmake/robotica_control_servoConfig-version.cmake
+-- Up-to-date symlink: /home/robotica-dev/robotica_ws/install/robotica_control_servo/share/robotica_control_servo/package.xml
